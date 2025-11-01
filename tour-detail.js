@@ -41,6 +41,68 @@ function loadTourDetails() {
         itemElement.textContent = item;
         includesList.appendChild(itemElement);
     });
+
+    // Populate excludes, why choose us, and contact for all tours
+    if (tour.id === 8) {
+        // Show excludes section for tour ID 8
+        const excludesSection = document.getElementById('excludes-section');
+        excludesSection.style.display = 'block';
+        const excludesList = document.getElementById('excludes-list');
+        tour.excludes.forEach(item => {
+            const itemElement = document.createElement('li');
+            itemElement.textContent = item;
+            excludesList.appendChild(itemElement);
+        });
+    }
+
+    // Show why choose us and contact for all tours
+    if (tour.whyChooseUs) {
+        // Show excludes section
+        const excludesSection = document.getElementById('excludes-section');
+        excludesSection.style.display = 'block';
+        const excludesList = document.getElementById('excludes-list');
+        tour.excludes.forEach(item => {
+            const itemElement = document.createElement('li');
+            itemElement.textContent = item;
+            excludesList.appendChild(itemElement);
+        });
+
+        // Show why choose us section
+        const whyChooseUsSection = document.getElementById('why-choose-us-section');
+        whyChooseUsSection.style.display = 'block';
+        const whyChooseUsList = document.getElementById('why-choose-us-list');
+        tour.whyChooseUs.forEach(item => {
+            const itemElement = document.createElement('li');
+            itemElement.textContent = item;
+            whyChooseUsList.appendChild(itemElement);
+        });
+
+        // Show contact section
+        const contactSection = document.getElementById('contact-section');
+        contactSection.style.display = 'block';
+        const contactInfo = document.getElementById('contact-info');
+        const lines = tour.contact.split('\n');
+        lines.forEach(line => {
+            if (line.includes('Email:')) {
+                const p = document.createElement('p');
+                p.innerHTML = `<strong>Email:</strong> <a href="mailto:${line.split('Email: ')[1]}">${line.split('Email: ')[1]}</a>`;
+                contactInfo.appendChild(p);
+            } else if (line.includes('+91')) {
+                const p = document.createElement('p');
+                p.innerHTML = `<strong>Phone:</strong> <a href="tel:${line}">${line}</a>`;
+                contactInfo.appendChild(p);
+            } else if (line.includes('Shop No.')) {
+                const p = document.createElement('p');
+                p.innerHTML = `<strong>Address:</strong> ${line}`;
+                contactInfo.appendChild(p);
+            } else {
+                const p = document.createElement('p');
+                p.textContent = line;
+                contactInfo.appendChild(p);
+            }
+        });
+    }
+
 }
 
 // Booking form submission
