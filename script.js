@@ -16,7 +16,7 @@ const tours = [
         ],
         includes: ["Accommodation in 3★ Hotels", "Daily Breakfast & Dinner", "Private Cab Sightseeing", "All Applicable Taxes"],
         whyChooseUs: ["Hand-picked hotels inspected by our own team", "Friendly, professional drivers familiar with destinations", "24×7 travel assistance & customer support", "Hassle-free, customized tour experience"],
-        contact: "Gurbani Tour & Travel\n✉️ Email: gurbanitourandtravel@gmail.com\n📱 +91 7703918807 / 7838251002\n🏢 Shop No. 112, 1st Floor, W Mall, Manglam Place, Sector-3, Rohini, Delhi – 110085\nThanks & Regards,\nVansh Gandhi"
+        contact: "Gurbani Tour & Travel\n✉️ Email: gurbanitourandtravel@gmail.com\n📱 +91 7703918807 / 7838251002\n🏢 Shop No. 112, 1st Floor, W Mall, Manglam Place, Sector-3, Rohini, Delhi – 110085"
     },
     {
         id: 2,
@@ -34,7 +34,7 @@ const tours = [
         ],
         includes: ["3★ Hotel Accommodation", "Breakfast & Dinner", "Sightseeing Cab", "Airport Transfers"],
         whyChooseUs: ["Hand-picked hotels inspected by our own team", "Friendly, professional drivers familiar with destinations", "24×7 travel assistance & customer support", "Hassle-free, customized tour experience"],
-        contact: "Gurbani Tour & Travel\n✉️ Email: gurbanitourandtravel@gmail.com\n📱 +91 7703918807 / 7838251002\n🏢 Shop No. 112, 1st Floor, W Mall, Manglam Place, Sector-3, Rohini, Delhi – 110085\nThanks & Regards,\nVansh Gandhi"
+        contact: "Gurbani Tour & Travel\n✉️ Email: gurbanitourandtravel@gmail.com\n📱 +91 7703918807 / 7838251002\n🏢 Shop No. 112, 1st Floor, W Mall, Manglam Place, Sector-3, Rohini, Delhi – 110085"
     },
     {
         id: 3,
@@ -53,7 +53,7 @@ const tours = [
         ],
         includes: ["3★ Hotels + Houseboat Stay", "Breakfast & Dinner Included", "Private Vehicle for Sightseeing", "Toll, Parking & All Taxes", "Professional Travel Support"],
         whyChooseUs: ["Hand-picked hotels inspected by our own team", "Friendly, professional drivers familiar with destinations", "24×7 travel assistance & customer support", "Hassle-free, customized tour experience"],
-        contact: "Gurbani Tour & Travel\n✉️ Email: gurbanitourandtravel@gmail.com\n📱 +91 7703918807 / 7838251002\n🏢 Shop No. 112, 1st Floor, W Mall, Manglam Place, Sector-3, Rohini, Delhi – 110085\nThanks & Regards,\nVansh Gandhi"
+        contact: "Gurbani Tour & Travel\n✉️ Email: gurbanitourandtravel@gmail.com\n📱 +91 7703918807 / 7838251002\n🏢 Shop No. 112, 1st Floor, W Mall, Manglam Place, Sector-3, Rohini, Delhi – 110085"
     },
     {
         id: 4,
@@ -71,7 +71,7 @@ const tours = [
         ],
         includes: ["3★ Hotel Accommodation", "Breakfast & Dinner", "Sightseeing by Private Vehicle", "All Taxes & Toll Parking"],
         whyChooseUs: ["Hand-picked hotels inspected by our own team", "Friendly, professional drivers familiar with destinations", "24×7 travel assistance & customer support", "Hassle-free, customized tour experience"],
-        contact: "Gurbani Tour & Travel\n✉️ Email: gurbanitourandtravel@gmail.com\n📱 +91 7703918807 / 7838251002\n🏢 Shop No. 112, 1st Floor, W Mall, Manglam Place, Sector-3, Rohini, Delhi – 110085\nThanks & Regards,\nVansh Gandhi"
+        contact: "Gurbani Tour & Travel\n✉️ Email: gurbanitourandtravel@gmail.com\n📱 +91 7703918807 / 7838251002\n🏢 Shop No. 112, 1st Floor, W Mall, Manglam Place, Sector-3, Rohini, Delhi – 110085"
     },
     {
         id: 5,
@@ -89,7 +89,7 @@ const tours = [
         ],
         includes: ["3★ Hotel Accommodation", "Breakfast & Dinner", "Private Cab for Sightseeing", "Taxes & Parking"],
         whyChooseUs: ["Hand-picked hotels inspected by our own team", "Friendly, professional drivers familiar with destinations", "24×7 travel assistance & customer support", "Hassle-free, customized tour experience"],
-        contact: "Gurbani Tour & Travel\n✉️ Email: gurbanitourandtravel@gmail.com\n📱 +91 7703918807 / 7838251002\n🏢 Shop No. 112, 1st Floor, W Mall, Manglam Place, Sector-3, Rohini, Delhi – 110085\nThanks & Regards,\nVansh Gandhi"
+        contact: "Gurbani Tour & Travel\n✉️ Email: gurbanitourandtravel@gmail.com\n📱 +91 7703918807 / 7838251002\n🏢 Shop No. 112, 1st Floor, W Mall, Manglam Place, Sector-3, Rohini, Delhi – 110085"
     },
     {
         id: 6,
@@ -107,7 +107,7 @@ const tours = [
         ],
         includes: ["3★ Hotel + Houseboat Stay", "Breakfast & Dinner", "Private Cab for Sightseeing"],
         whyChooseUs: ["Hand-picked hotels inspected by our own team", "Friendly, professional drivers familiar with destinations", "24×7 travel assistance & customer support", "Hassle-free, customized tour experience"],
-        contact: "Gurbani Tour & Travel\n✉️ Email: gurbanitourandtravel@gmail.com\n📱 +91 7703918807 / 7838251002\n🏢 Shop No. 112, 1st Floor, W Mall, Manglam Place, Sector-3, Rohini, Delhi – 110085\nThanks & Regards,\nVansh Gandhi"
+        contact: "Gurbani Tour & Travel\n✉️ Email: gurbanitourandtravel@gmail.com\n📱 +91 7703918807 / 7838251002\n🏢 Shop No. 112, 1st Floor, W Mall, Manglam Place, Sector-3, Rohini, Delhi – 110085"
     },
     {
         id: 7,
@@ -126,7 +126,7 @@ const tours = [
         ],
         includes: ["3★ Hotels + Houseboat Stay", "Breakfast & Dinner Included", "Private Vehicle for Sightseeing", "Toll, Parking & All Taxes", "Professional Travel Support"],
         whyChooseUs: ["Hand-picked hotels inspected by our own team", "Friendly, professional drivers familiar with destinations", "24×7 travel assistance & customer support", "Hassle-free, customized tour experience"],
-        contact: "Gurbani Tour & Travel\n✉️ Email: gurbanitourandtravel@gmail.com\n📱 +91 7703918807 / 7838251002\n🏢 Shop No. 112, 1st Floor, W Mall, Manglam Place, Sector-3, Rohini, Delhi – 110085\nThanks & Regards,\nVansh Gandhi"
+        contact: "Gurbani Tour & Travel\n✉️ Email: gurbanitourandtravel@gmail.com\n📱 +91 7703918807 / 7838251002\n🏢 Shop No. 112, 1st Floor, W Mall, Manglam Place, Sector-3, Rohini, Delhi – 110085"
     },
     {
         id: 8,
@@ -145,7 +145,7 @@ const tours = [
         includes: ["All Transfers & Sightseeing by Private 7-Seater Vehicle", "Comfortable 3★ Hotel Accommodation", "Daily Breakfast", "Experienced Driver for Sightseeing"],
         excludes: ["Entry Tickets (e.g., Boats, ATVs, Monuments)", "Flight / Train Tickets", "Personal Expenses"],
         whyChooseUs: ["Hand-picked hotels inspected by our own team", "Friendly, professional drivers familiar with destinations", "24×7 travel assistance & customer support", "Hassle-free, customized tour experience"],
-        contact: "Gurbani Tour & Travel\n✉️ Email: gurbanitourandtravel@gmail.com\n📱 +91 7703918807 / 7838251002\n🏢 Shop No. 112, 1st Floor, W Mall, Manglam Place, Sector-3, Rohini, Delhi – 110085\nThanks & Regards,\nVansh Gandhi"
+        contact: "Gurbani Tour & Travel\n✉️ Email: gurbanitourandtravel@gmail.com\n📱 +91 7703918807 / 7838251002\n🏢 Shop No. 112, 1st Floor, W Mall, Manglam Place, Sector-3, Rohini, Delhi – 110085"
     }
 ];
 
